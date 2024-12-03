@@ -1,0 +1,45 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background-color: #21211e;
+    color: white;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.togglebutton{
+    padding: 12px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease
+}
+
+.togglebutton.active {
+    background-color: white;
+    color: black;
+}
+
+.accordian{
+    width: 500px;
+    height: 200px;
+}
+
+.item {
+    background: white;
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.title{
+    background: orange;
+}
